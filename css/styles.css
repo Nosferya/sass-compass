@@ -1,0 +1,337 @@
+/* line 5, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, .sect3 img, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../scss/partials/_header.scss */
+header {
+  background-image: url("../images/bgimg.jpg");
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+/* line 9, ../scss/partials/_header.scss */
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+/* line 16, ../scss/partials/_header.scss */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 21, ../scss/partials/_header.scss */
+li {
+  padding: 17px;
+}
+
+/* line 25, ../scss/partials/_header.scss */
+li:hover, li:active {
+  background-color: black;
+}
+
+/* line 26, ../scss/partials/_header.scss */
+li:nth-child(odd) {
+  border-left: white 1px solid;
+  border-right: white 1px solid;
+}
+
+/* line 1, ../scss/partials/_footer.scss */
+footer i {
+  margin-right: 30px;
+}
+
+/* line 5, ../scss/partials/_footer.scss */
+form button {
+  border-radius: 20px;
+  display: flex;
+  margin-left: 40%;
+  margin-top: 40px;
+  padding: 5px 25px 5px;
+  background-color: #846add;
+}
+
+/* line 14, ../scss/partials/_footer.scss */
+#pad {
+  margin-left: 10px;
+}
+
+/* line 104, icons/*.png */
+.icons-sprite, .icons-fb-off, .icons-fb-on, .icons-ig-off, .icons-ig-on, .icons-tw-off, .icons-tw-on, .icons-yt-off, .icons-yt-on {
+  background-image: url('/images/icons-sdd8ce52628.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-fb-off {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-fb-on {
+  background-position: 0 -100px;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-ig-off {
+  background-position: 0 -200px;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-ig-on {
+  background-position: 0 -300px;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-tw-off {
+  background-position: 0 -400px;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-tw-on {
+  background-position: 0 -500px;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-yt-off {
+  background-position: 0 -600px;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-yt-on {
+  background-position: 0 -700px;
+}
+
+/* line 11, ../scss/styles.scss */
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 25, ../scss/styles.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 29, ../scss/styles.scss */
+body, .sect3 img {
+  font-family: Trebuchet MS, serif;
+}
+
+/* line 34, ../scss/styles.scss */
+.sect3 img {
+  height: 380px;
+  width: 480px;
+  margin-right: 82px;
+}
+
+/* line 42, ../scss/styles.scss */
+h1 {
+  font-size: 6.0rem;
+  color: white;
+  margin: auto;
+  padding-top: 70px;
+}
+
+/* line 50, ../scss/styles.scss */
+.baseline {
+  font-size: 3.6rem;
+  color: black;
+  margin: 0;
+}
+
+/* line 56, ../scss/styles.scss */
+nav {
+  font-size: 2.2rem;
+  background-color: #ff3333;
+  box-shadow: 0px 5px 2px 1px #656565;
+}
+
+/* line 62, ../scss/styles.scss */
+p {
+  font-size: 1.6rem;
+}
+
+/* line 65, ../scss/styles.scss */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 70, ../scss/styles.scss */
+.main {
+  width: 980px;
+  justify-content: center;
+}
+
+/* line 75, ../scss/styles.scss */
+.noms {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* line 81, ../scss/styles.scss */
+#ST1 {
+  margin-top: 40px;
+}
+
+/* line 84, ../scss/styles.scss */
+.inline {
+  display: inline;
+}
+
+/* line 88, ../scss/styles.scss */
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+/* line 95, ../scss/styles.scss */
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 331px;
+  margin-top: 15px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+/* line 99, ../scss/styles.scss */
+footer {
+  color: white;
+  background-color: #2b5dc3;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 125px;
+  margin-top: 70px;
+}
+
+/* line 109, ../scss/styles.scss */
+.sect3 {
+  display: flex;
+  font-size: 1.6rem;
+}
+
+/* line 114, ../scss/styles.scss */
+.no_border {
+  border: 0px;
+}
+
+/* line 120, ../scss/styles.scss */
+.border {
+  border: 1px solid grey;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+/* line 126, ../scss/styles.scss */
+textarea {
+  position: absolute;
+  height: 195px;
+  border: none;
+  width: 412px;
+  resize: none;
+  margin-top: 5px;
+}
+
+/* line 135, ../scss/styles.scss */
+form i {
+  padding: 5px;
+  color: grey;
+}
+
+/* line 140, ../scss/styles.scss */
+.txtarea {
+  margin-top: 17px;
+  border: 1px solid grey;
+  height: 202px;
+}
+
+/* line 146, ../scss/styles.scss */
+input {
+  width: 400px;
+  padding-left: 5px;
+}
+
+/* line 151, ../scss/styles.scss */
+.inlflex {
+  display: flex;
+  padding-left: 15px;
+}
+
+/* line 156, ../scss/styles.scss */
+.icons {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
