@@ -1,1 +1,1 @@
-# sass-compass
+# little-one-page
